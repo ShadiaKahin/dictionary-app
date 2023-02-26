@@ -20,9 +20,10 @@ export default function GetMeaning() {
 
     return (
         <div className="words-container">
-            <h1 className="header">Free Dictionary</h1>
-            <input type="text" placeholder="Search..." onChange={(e) => setSearchWord(e.target.value)} />
+            <div className="input-container">
+            <input type="text" className="search" placeHolder="Search..." onChange={(e) => setSearchWord(e.target.value)} />
             <button type="button" onClick={() => handleSearch(searchWord)}>Search...</button>
+            </div>
             {data.length ? 
             <ul className="word-list">
                  {

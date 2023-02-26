@@ -7,7 +7,10 @@ function App() {
   return (
 
     <div className="App">
-        <Hero />
+      <Hero />
+      <div className='title-container'>
+        <h2 className='title'>Free Dictionary</h2>
+      </div>
       <div className='layout'>
         <Words />
       </div>

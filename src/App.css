@@ -1,16 +1,32 @@
-
 @media only screen and (min-width: 480px) {
 
-        .layout {
-            width: 80%;
-            margin-left: auto;
-            margin-right: auto;
-        }
+    .layout {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
+}
 
+.title-container {
 
+    color: white;
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: "Helvetica";
+    background-color: rgb(14, 37, 11);
+    /* padding: 25px; */
+    text-align: center;
+    margin-bottom: 40px;
     
-    /* 320px — 480px: Mobile devices 
+     
+}
+
+.title {
+    margin: 0;
+    padding: 25px;
+}
+
+/* 320px — 480px: Mobile devices 
     481px — 768px: iPads,
     Tablets 769px — 1024px: Small screens,
     laptops 1025px — 1200px: Desktops,
@@ -18,3 +34,7 @@
     TV */
 
 
+.App {
+    /* background-color: rgb(250, 249, 246); */
+    /* height: 100vh; */
+}
